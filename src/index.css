@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* ── Custom Fonts ──────────────────────────────────── */
+@font-face {
+  font-family: "P22 Mackinac";
+  src: url("./font/Fontspring-DEMO-P22Mackinac-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "P22 Mackinac";
+  src: url("./font/Fontspring-DEMO-P22Mackinac-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Shimmer animation for subtitle ────────────────── */
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #676767 0%,
+    #676767 35%,
+    #b0b0b0 45%,
+    #e0e0e0 50%,
+    #b0b0b0 55%,
+    #676767 65%,
+    #676767 100%
+  );
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 6s ease-in-out infinite;
+}
