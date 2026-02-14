@@ -3,7 +3,7 @@
 /* ── Custom Fonts ──────────────────────────────────── */
 @font-face {
   font-family: "P22 Mackinac";
-  src: url("./font/Fontspring-DEMO-P22Mackinac-Bold.otf") format("opentype");
+  src: url("/fonts/Fontspring-DEMO-P22Mackinac-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "P22 Mackinac";
-  src: url("./font/Fontspring-DEMO-P22Mackinac-ExtraBold.otf") format("opentype");
+  src: url("/fonts/Fontspring-DEMO-P22Mackinac-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;

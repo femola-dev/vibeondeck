@@ -1,14 +1,14 @@
 import React, { useState, useRef, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-/* ── Asset imports ─────────────────────────────────────── */
-import avatarImg from "@/assets/images/ascii-art.png";
-import emailIcon from "@/assets/icons/email.svg";
-import copyIcon from "@/assets/icons/Copy 1.svg";
-import checkmarkIcon from "@/assets/icons/Seen checkmark.svg";
-import twitterIcon from "@/assets/icons/Twitter.svg";
-import linkedinIcon from "@/assets/icons/Linkedin Square.svg";
-import dribbbleIcon from "@/assets/icons/Dribbble.svg";
+/* ── Asset paths (served from public/) ────────────────── */
+const avatarImg = "/images/ascii-art.png";
+const emailIcon = "/icons/email.svg";
+const copyIcon = "/icons/Copy 1.svg";
+const checkmarkIcon = "/icons/Seen checkmark.svg";
+const twitterIcon = "/icons/Twitter.svg";
+const linkedinIcon = "/icons/Linkedin Square.svg";
+const dribbbleIcon = "/icons/Dribbble.svg";
 
 /* ── Constants ──────────────────────────────────────────── */
 const EMAIL = "hey@femola.xyz";
